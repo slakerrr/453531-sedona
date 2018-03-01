@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Виктор Сысоев](https://up.htmlacademy.ru/htmlcss/20/user/453531).
-* Наставник: `Неизвестно`.
+* Наставник: [Екатерина Анплитова](https://htmlacademy.ru/profile/anplitova).
 
 ---
 
