@@ -26,7 +26,7 @@
                        <h1>Настоящий городок</h1>
                        <h3>N1</h3>
                        <p>Седона-не атракцион для туристов,там течет своя жизнь</p>
-                       <img src="img/flag.jpg" alt="Кафе в стиле Дикого Запада"> 
+                       <img src="img/flag.jpg" width="800px" height="256px" alt="Кафе в стиле Дикого Запада"> 
                    </section>
                </li>
                <li>
@@ -34,7 +34,7 @@
                        <ul>
                          <li class="estate">
                              <h1>Жилье</h1>
-                             <p>рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                             <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                            </li> 
                          <li class="food">
                              <h1>Еда</h1>
@@ -52,7 +52,7 @@
                        <h1>Там есть мост дьявола</h1>
                        <h3>N2</h3>
                        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-                       <img src="/img/bridge.jpg" alt="Пейзаж в районе моста">
+                       <img src="img/bridge.jpg" width="800px" height="256px" alt="Пейзаж в районе моста">
                    </section>       
                </li>
                <li>
@@ -82,13 +82,24 @@
                <h1 class="seacrh-info">Заинтересовались?</h1>
                <p class="search-date">укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
                <p class="search-button">Поиск гостиницы в Седоне</p>
-               <!--Здесь будет форма-->
+               <------>
+           <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+            <label for="date-arrival">Дата заезда:</label>
+            <input type="text" id="date-arrival"><br>
+            <label for="date-departure"> Дата выезда:</label>
+            <input id="date-departure" type="text"><br>
+            <label for="adults">Взрослые</label>
+            <textarea id="adults" rows="3" type="text"></textarea><br>
+            <input type="checkbox" checked>Подписаться на рассылку<br>
+            <input type="submit" value="Зарегистрироваться">
+        </form>
+                   </------>
                <img src="img/map.jpg" alt="Карта окрестностей">
            </section>
                        
         </main>
       <footer class="main-footer">
-        <a>#visitsedona</a>  
+        <span>#visitsedona</span>  
           <div class="footer-social">
               <ul>
                   <li><a class="social-button" href="#">twitter<img src="img/twitter.svg" alt="twitter" height="17px" width="15px"></a></li>
@@ -98,7 +109,7 @@
           </div>
           <p class="footer-copyright">
           <b>Wedsite by</b>
-          <a href="https//htmlacademy.ru/"><img src="/img/logo-htmlacademy.svg" alt="Лого академии" width:"30px" height="60px"></a>
+          <a href="https://htmlacademy.ru/"><img src="img/logo-htmlacademy.svg" alt="Лого академии" width:"115px" height="40px"></a>
           </p>
       </footer>
       
