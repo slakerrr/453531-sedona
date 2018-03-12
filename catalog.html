@@ -17,6 +17,36 @@
        </nav>
        </header>
        <main class="container">
+           <section class="filter-block">
+               <h1>Форма поиска отелей</h1> <!--- позже скрою-->
+               <form class="filter-form">
+                   <ul class="catalog-filter-list">
+                       <fieldset><li class="options-list">Инфрастуктура</li>
+                       <ul>
+                           <li><input type="checkbox" checked>Бассейн</li>
+                           <li><input type="checkbox">Парковка</li>
+                           <li><input type="checkbox">Wi-Fi</li>
+                       </ul>
+                           </fieldset>
+                      <fieldset>
+                          <li class="options-list">Тип жилья</li>
+                       <ul>
+                           <li><input type="checkbox" checked>Гостиница</li>
+                           <li><input type="checkbox" checked>Мотель</li>
+                           <li><input type="checkbox" checked>Аппартаменты</li>
+                       </ul>
+                       </fieldset>
+                       <fieldset>
+                           <li class="price-scale">Стоимость в сутки<br>
+                           <div>
+                               <input type="range" min="0" max="3000" step="1">
+                             <button>Показать</button>  
+                           </div>
+                           </li></fieldset>
+                       
+                   </ul>
+               </form>
+           </section>
            <!--Здесь будет форма-->
            <ul class="sort">
                <li><span class="found">Найдено</span></li>
@@ -27,7 +57,7 @@
            </ul>
            <ul>
                <li class="hotels-amara">
-                   <h2>Amara resort &amp spa</h2>
+                   <h2>Amara resort &amp; spa</h2>
                    <b>Гостиница</b>
                    <b>от 4000р.</b>
                    <a href="info-amara">Подробнее</a>
@@ -67,7 +97,7 @@
           </div>
           <p class="footer-copyright">
           <b>Wedsite by</b>
-          <a href="https://htmlacademy.ru/"><img src="img/logo-htmlacademy.svg" alt="Лого академии" width:"115" height="40"></a>
+          <a href="https://htmlacademy.ru/"><img src="img/logo-htmlacademy.svg" alt="Лого академии" width="115" height="40"></a>
           </p>
       </footer>
   </body>
