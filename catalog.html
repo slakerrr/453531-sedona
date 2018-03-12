@@ -18,34 +18,47 @@
        </header>
        <main class="container">
            <section class="filter-block">
-               <h1>Форма поиска отелей</h1> <!--- позже скрою-->
                <form class="filter-form">
-                   <ul class="catalog-filter-list">
-                       <fieldset><li class="options-list">Инфрастуктура</li>
-                       <ul>
-                           <li><input type="checkbox" checked>Бассейн</li>
-                           <li><input type="checkbox">Парковка</li>
-                           <li><input type="checkbox">Wi-Fi</li>
-                       </ul>
-                           </fieldset>
-                      <fieldset>
-                          <li class="options-list">Тип жилья</li>
-                       <ul>
-                           <li><input type="checkbox" checked>Гостиница</li>
-                           <li><input type="checkbox" checked>Мотель</li>
-                           <li><input type="checkbox" checked>Аппартаменты</li>
-                       </ul>
-                       </fieldset>
-                       <fieldset>
-                           <li class="price-scale">Стоимость в сутки<br>
-                           <div>
-                               <input type="range" min="0" max="3000" step="1">
-                             <button>Показать</button>  
-                           </div>
-                           </li></fieldset>
-                       
-                   </ul>
-               </form>
+  <h1 class="visually-hidden">Форма поиска отелей</h1>
+
+  <fieldset>
+    <legend>Инфрастуктура:</legend>
+
+    <ul>
+      <li><label><input type="checkbox" checked> Бассейн</label></li>
+      <li><label><input type="checkbox"> Парковка</label></li>
+      <li><label><input type="checkbox"> Wi-Fi</label></li>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+    <legend>Тип жилья:</legend>
+
+    <ul>
+      <li><label><input type="checkbox" checked> Гостиница</label></li>
+      <li><label><input type="checkbox" checked> Мотель</label></li>
+      <li><label><input type="checkbox" checked> Аппартаменты</label></li>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+    <legend>Стоимость в сутки (Р):</legend>
+
+    <div class="price-filter">
+      <div class="price-filter__item">от <input type="number" value="0"></div>
+      <div class="price-filter__item">до <input type="number" value="3000"></div>
+    </div>
+
+
+    <div class="range">
+      <div class="range__toggle range__toggle_min"></div>
+      <div class="range__toggle range__toggle_max"></div>
+    </div>
+
+    <button>Показать</button>
+  </fieldset>
+</form>
+
            </section>
            <!--Здесь будет форма-->
            <ul class="sort">
