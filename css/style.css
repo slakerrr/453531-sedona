@@ -10,7 +10,7 @@ body {
     text-transform: uppercase;
     
     background-color: white;
-    background-image: url("img/background.jpg");
+    background-image: url(/img/background.jpg);
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -198,4 +198,26 @@ h2~p {
 
 
 
+<!------------->
+
+.body-catalog {
+    margin:0;
+    padding:0;
+    
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    
+    background-color: white;
+    background-image: url("img/background.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.site-navigation {
+   list-style: none; 
+}
 
