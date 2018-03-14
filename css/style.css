@@ -5,7 +5,7 @@ body {
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
-    font-weight: 700;
+    font-weight: 1200;
     color: black;
     text-transform: uppercase;
     
@@ -14,3 +14,38 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
 }
+a {
+    text-decoration: none;
+}
+
+.main-navigation{
+  font-weight: 700;
+    
+  background-color: white;
+}
+
+.site-navigation,
+.user-navigation {
+    list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+    color:black;
+}
+
+.site-navigation a:active,
+.user-navigation a:active {
+    opacity: 0.3; 
+}
+
+.site-navigation a:hover,
+.user-naavigation a:hover {
+    color: #81b3d2;
+}
+
+
+.main-head h1 {
+    font-size: 21px;
+}
+
