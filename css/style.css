@@ -4,8 +4,8 @@ body {
     
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
-    line-height: 26px;
-    font-weight: 1200;
+    line-height: 21px;
+    font-weight: bold;
     color: black;
     text-transform: uppercase;
     
@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+.main-header {
+line-height: 26px;    
+}
+
 .main-navigation{
   font-weight: 700;
     
@@ -25,7 +29,8 @@ a {
 }
 
 .site-navigation,
-.user-navigation {
+.user-navigation,
+.best-5thing {
     list-style: none;
 }
 
@@ -47,5 +52,45 @@ a {
 
 .main-head h1 {
     font-size: 21px;
+    line-height: 26px;
 }
 
+
+.true-city,
+.bridge {
+    background-color: #81b3d2;
+    color:white;
+}
+.true-city {
+    text-align: left;
+}
+.bridge {
+    text-align: right;
+    image-orientation: 
+}
+
+.best-5things h1 {
+    font-size: 21px;
+    }
+.small-town,
+.road,
+.free-place {
+    background-color: #eeeeee;
+}
+
+.best-5things li {
+    text-align: center;
+    }
+
+
+h2{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+h2~p {
+    font-size: 14px;
+    line-height: 24px; 
+    font-weight: normal;
+}
