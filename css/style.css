@@ -1,0 +1,96 @@
+body {
+    margin:0;
+    padding:0;
+    
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    
+    background-color: white;
+    background-image: url("img/background.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+}
+
+.main-header {
+line-height: 26px;    
+}
+
+.main-navigation{
+  font-weight: 700;
+    
+  background-color: white;
+}
+
+.site-navigation,
+.user-navigation,
+.best-5thing {
+    list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+    color:black;
+}
+
+.site-navigation a:active,
+.user-navigation a:active {
+    opacity: 0.3; 
+}
+
+.site-navigation a:hover,
+.user-naavigation a:hover {
+    color: #81b3d2;
+}
+
+
+.main-head h1 {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+
+.true-city,
+.bridge {
+    background-color: #81b3d2;
+    color:white;
+}
+.true-city {
+    text-align: left;
+}
+.bridge {
+    text-align: right;
+    image-orientation: 
+}
+
+.best-5things h1 {
+    font-size: 21px;
+    }
+.small-town,
+.road,
+.free-place {
+    background-color: #eeeeee;
+}
+
+.best-5things li {
+    text-align: center;
+    }
+
+
+h2{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+h2~p {
+    font-size: 14px;
+    line-height: 24px; 
+    font-weight: normal;
+}
