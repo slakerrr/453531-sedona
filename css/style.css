@@ -111,18 +111,57 @@ h2~p {
 }
 
 .search-btn{
+    font: inherit;
+    text-transform: uppercase;
     background-color: #766357;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
+    color: #ffffff;
 }
 .search-btn:active {
   background-color: #503e33;
+  opacity: 0.3;    
 }
 .search-btn:hover {
   background-color: #604e43;
 }
-
-.date+.feild:active {
-  background-color: #503e33;  
+.field {
+    background-color: #f2f2f2;
 }
+.field:active {
+  background-color: #ffffff ;  
+}
+.field:hover {
+    background-color: #ebebeb;
+}
+
+
+.find-btn {
+    background-color: #81b3d2;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.find-btn:active{
+ background-color: #5496bd;   
+}
+.find-btn:hover{
+    background-color: #669ec0;
+}
+
+
+
+.visit {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;   
+   
+}
+
+
+
+
