@@ -30,7 +30,10 @@ line-height: 26px;
 
 .site-navigation,
 .user-navigation,
-.best-5thing {
+.best-5things,
+.estate,
+.food,
+.souvenirs {
     list-style: none;
 }
 
@@ -54,6 +57,11 @@ line-height: 26px;
     font-size: 21px;
     line-height: 26px;
 }
+h1~h2 {
+     font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
+}
 
 
 .true-city,
@@ -66,7 +74,7 @@ line-height: 26px;
 }
 .bridge {
     text-align: right;
-    image-orientation: 
+  
 }
 
 .best-5things h1 {
@@ -82,8 +90,10 @@ line-height: 26px;
     text-align: center;
     }
 
+ 
 
-h2{
+}
+div~h2{
     font-size: 30px;
     line-height: 36px;
     font-weight: bold;
@@ -93,4 +103,26 @@ h2~p {
     font-size: 14px;
     line-height: 24px; 
     font-weight: normal;
+}
+
+
+.interested {
+  text-align: center;  
+}
+
+.search-btn{
+    background-color: #766357;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+}
+.search-btn:active {
+  background-color: #503e33;
+}
+.search-btn:hover {
+  background-color: #604e43;
+}
+
+.date+.feild:active {
+  background-color: #503e33;  
 }
