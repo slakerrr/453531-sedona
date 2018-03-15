@@ -344,6 +344,7 @@ background-color: #766357;
 }
 
 .rating {
+    display: inline-block;
     width: 150px;
     height: 250px;                 /*не применяется размер блока */
     background-color: #f2f2f2;
