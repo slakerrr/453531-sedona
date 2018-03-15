@@ -351,15 +351,18 @@ background-color: #766357;
 }
 
 
-.4stars {
-    background-image: url(img/star.svg);    /*нет звезд */
+.stars4 {
+    background-image: url(../img/star.svg);    /*нет звезд */
     background-repeat: repeat-x;
+    width: 74px;
 }
-.3stars {
-    background-image: url(img/star.svg);
+.stars3 {
+    background-image: url(../img/star.svg);
     background-repeat: repeat-x;
+    width: 54px;
 }
-.2stars {
-    background-image: url(img/star.svg);
+.stars2 {
+    background-image: url(../img/star.svg);
     background-repeat: repeat-x;
+    width: 36px;
 }
