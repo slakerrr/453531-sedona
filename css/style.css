@@ -10,7 +10,7 @@ body {
     text-transform: uppercase;
     
     background-color: white;
-    background-image: url(/img/background.jpg);
+    background-image: url(/img/background.jpg); /* не подгружает фон */ 
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -202,7 +202,7 @@ h2~p {
 
 .body-catalog {
    font-weight: normal;
-   background-image: url(img/filter%20background.jpg);
+   background-image: url(img/filter%20background.jpg); /* не подгружает фон */ 
     
 }
 
@@ -217,6 +217,12 @@ legend {
  line-height: 21px;
  font-weight: bold;
     color:darkgoldenrod;
+}
+
+.checkbox,
+.checkbox:hover {              /* на чекбоксы не вешается стилизация */ 
+    border: 2px solid white;
+    background-color: red;
 }
 
 .price-filter {
@@ -249,7 +255,7 @@ label input {
  font-weight: bold;
 }
 
-.hotel-sort,
+.hotel-sort,   /* нет активного состояния после нажатия */ 
 .sort-price,
 .sort-type,
 .sort-rait  {
@@ -283,3 +289,77 @@ a.sort-rait:active {
     border-bottom: 0px dashed #81b3d2;
    }
 
+.low-high,  /* треугольники svg не красятся */ 
+.high-low {
+    color: #cacaca;
+}
+
+.low-high:hover,
+.high-low:hover {
+    color: #231f20;
+}
+
+.low-high:active,
+.high-low:active {
+    color: #81b3d2;
+}
+
+h3 {
+  font-size: 21px;
+ line-height: 26px;
+ font-weight: bold;   
+}
+h3:hover{
+   color: #81b3d2 
+}
+h3:active{
+   color: black;
+    opacity: 0.3;
+}
+
+
+.details {
+ color: white;
+background-color: #81b3d2;    
+}
+.details:hover {
+ background-color: #669ec0;   
+}
+.details:active {
+ background-color: #5496bd; 
+    opacity: 0.3;
+}
+
+
+.book {
+ color: white;
+background-color: #766357;    
+}
+.book:hover {
+ background-color: #604e43;   
+}
+.book:active {
+ background-color: #503e33; 
+    opacity: 0.3;
+}
+
+.rating {
+    width: 150px;
+    height: 250px;                 /*не применяется размер блока */
+    background-color: #f2f2f2;
+    color: #666666;
+}
+
+
+.4stars {
+    background-image: url(img/star.svg);    /*нет звезд */
+    background-repeat: repeat-x;
+}
+.3stars {
+    background-image: url(img/star.svg);
+    background-repeat: repeat-x;
+}
+.2stars {
+    background-image: url(img/star.svg);
+    background-repeat: repeat-x;
+}
