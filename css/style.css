@@ -346,14 +346,14 @@ background-color: #766357;
 .rating {
     display: inline-block;
     width: 150px;
-    height: 250px;                 /*не применяется размер блока */
+    height: 250px;              
     background-color: #f2f2f2;
     color: #666666;
 }
 
 
 .stars4 {
-    background-image: url(../img/star.svg);    /*нет звезд */
+    background-image: url(../img/star.svg);  
     background-repeat: repeat-x;
     width: 74px;
 }
