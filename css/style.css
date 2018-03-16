@@ -19,7 +19,8 @@ a {
 }
 
 .main-header {
-line-height: 26px;    
+line-height: 26px;
+    outline: 1px solid black;
 }
 
 .main-navigation{
@@ -402,4 +403,42 @@ background-color: #766357;
     background-image: url(../img/star.svg);
     background-repeat: repeat-x;
     width: 36px;
+}
+
+
+
+
+
+
+
+
+.main-header {
+    margin-bottom: 570px;
+    
+}
+.main-header-logo {
+  width: 138px;
+    height: 70px;
+  
+}
+
+.site-navigation {
+   margin:0;
+    padding: 0;
+    width: 1056px;
+    list-style: none;
+    display: flex;
+    }
+
+.main-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    margin-bottom: 570px;
+    margin-left: 72px;
+    margin-right: 72px;
+    background-color: rosybrown;
+        
 }
