@@ -460,6 +460,7 @@ body{
     list-style: none;
     display: flex;
     flex-direction: column;
+    background-color: chocolate
 }
 .true-city {
  display: flex;
@@ -484,4 +485,13 @@ body{
     margin: 0;
     padding: 0;
     flex-direction: row-reverse;
+}
+
+.small-town,
+.road,
+.free-place {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
