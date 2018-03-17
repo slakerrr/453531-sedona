@@ -462,21 +462,26 @@ body{
     flex-direction: column;
 }
 .true-city {
-   display: flex;
- ;  
+ display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    align-content: space-between; 
 }
 .recomendation{
     margin: 0;
     padding: 0;
     height: 330px;
     display: flex;
-
     justify-content: space-around;
     align-items: center;
     
 }
 .bridge {
     display: flex;
+    width: 100%;
     margin: 0;
     padding: 0;
+    flex-direction: row-reverse;
 }
