@@ -416,22 +416,25 @@ body{
 
 .main-header {
     margin-bottom: 0px;
+    display: flex; 
     
 }
+/*
 .main-header-logo {
   width: 138px;
     height: 70px;
   
-}
+}*/
 .main-navigation{
     display: flex;
+    width: 100%;
 }
 
 
 .nav-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
     width: 100%;
     height: 56px;
     margin-bottom: 570px;
@@ -441,11 +444,12 @@ body{
         
 }
 .site-navigation {
-   margin-top: auto;
+   margin:0;
     padding: 0;
-    width: 100%;
+    width: 80%;
+    display: flex;
     list-style: none;
-    display: fl
+    flex-direction:;
     align-content: space-between;
     
     }
