@@ -486,13 +486,18 @@ body{
     
 }
 .true-city {
- display: flex;
+    text-decoration: none;
+    height: 256px;
+    display: flex;
     margin: 0;
     padding: 0;
     width: 100%;
     height: auto;
-    align-content: space-between; 
+    flex-direction:row;
+    align-content: space-around; 
 }
+
+
 .recomendation{
     margin: 0;
     padding: 0;
