@@ -567,10 +567,19 @@ h2 {
     background-color: darkcyan;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.form-line {
+    flex-direction: column;
+    justify-content: center
+   
+    
     
     
 }
-
 .map {
  
 }
@@ -582,28 +591,23 @@ h2 {
     display: flex;
     margin: 0;
     padding: 0;
-    height: 120px;
+    min-height: 120px;
     width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center
 }
 
-
-
-
-
-.body-catalog {
+.footer-social{
+    display: flex;
+    
     
 }
-
-.body-catalog .main-header {
-    
+.footer-social :first-child{
+    padding-right: 6px;
+}
+.footer-social :last-child{
+    padding-left: 6px;
 }
 
 
-.form-container {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
