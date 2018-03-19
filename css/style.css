@@ -649,30 +649,37 @@ h2 {
    }
 
 .filter-form {
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content:space-around;
     height: auto;
-    align-self: stretch;
-    
-    
+        
 }
 
 div.filter-fields {
-  width: 100px;               /*вероятно не верно*/
+  width: ;               /*вероятно не верно*/
+    padding-left: 40px
+    height: 100%;
     display: flex;
-    flex-direction: column
-    
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+.filter-form :nth-child(2){
+ min-height: 70%
+  }
+
 
 .catalog-sort {
     width: 100%;
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column-reverse
+   
 }
 .sort>li{
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
