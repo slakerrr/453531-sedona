@@ -487,8 +487,8 @@ body{
     }
 <<<<<<< HEAD
 
-.site-navigation:nth-child(1){
-    
+.site-navigation :nth-child(1){
+    display: flex;
     width: 20%;
     margin-left:;
     margin-right: 0;
@@ -496,24 +496,24 @@ body{
     text-align: left;
     border: 1px solid black;
    }
-.site-navigation:nth-child(2){
-   
+.site-navigation :nth-child(2){
+    display: flex;
     width: 20%; 
     text-align:0;
     margin-right:90px;
     padding: 0;
    border: 1px solid black;
     }
-.site-navigation:nth-child(3){
-    
+.site-navigation :nth-child(3){
+    display: flex;
     margin-left:20px;
     padding: 0;
      width: 20%;
     text-align: right;
     border: 1px solid black;
   }
-.site-navigation:nth-child(4){
-    
+.site-navigation :nth-child(4){
+    display: flex;
     margin:0;
     padding: 0;
      width: 20%;
