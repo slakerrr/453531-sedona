@@ -484,26 +484,38 @@ body{
 
 .site-navigation :nth-child(1) {
   
-    width: 20%;
+    width: 25%;
     text-align: left;
-    border: 1px solid black;
+    
    }
 .site-navigation :nth-child(2){
    text-align: left;
-    width: 20%; 
-     border: 1px solid black;
+    width: 25%; 
+   
+   
     }
 .site-navigation :nth-child(3){
-    width: 20%;
+    width: 25%;
     text-align: right;
-    border: 1px solid black;
+ 
   }
 .site-navigation :nth-child(4){
-    width: 20%;
+    width: 25%;
     text-align: right;
-    border: 1px solid black;
+   
 }
-
+.site-navigation :nth-child(1) a{
+    padding-left: 71px;
+}
+.site-navigation :nth-child(2) a{
+    padding-left: 12px;
+}
+.site-navigation :nth-child(3) a{
+    padding-right: 13px;
+}
+.site-navigation :nth-child(4) a{
+    padding-right: 71px;
+}
 .main-head {
 
     text-decoration: none; 
