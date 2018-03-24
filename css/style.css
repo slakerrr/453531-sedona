@@ -134,8 +134,14 @@ h2~p {
     left: 50%;
     top: 291px;
     transform: translateX(-50%);
-  
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     
+        
 }
 .search-btn{
      width: 568px;
@@ -784,17 +790,12 @@ h2 {
     padding-top:27px;
 }
 .search-form{
-    background-color: darkcyan;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    z-index: 2;
+    
 }
 .form-line {
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+   
    
     
     
