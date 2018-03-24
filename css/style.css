@@ -566,14 +566,10 @@ body{
     width: 400px;
    
     }
-.true-city-img  {
-    padding: 0;
-    margin: 0;
-    width: 800px;
-}
+
 .true-city h1{
     width: 180px;
-    padding: 0;
+    padding:0;
     margin:0;
     margin-left: auto;
     margin-right: auto;
@@ -585,7 +581,7 @@ body{
     padding: 0;
     margin:0;
     padding-top: 0px;
-  padding-bottom: 0px; 
+    padding-bottom: 0px; 
     width: auto;
     margin-left: 58px;
     margin-right: 58px;
@@ -594,6 +590,50 @@ body{
 .true-city-txt .numeration{
     display: block;
     margin-bottom:21px;
+    
+}
+.bridge {
+    text-decoration: none;
+    min-height: 256px;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    flex-direction:row;
+    align-content: space-around; 
+}
+
+.bridge-txt {
+    min-height: 256px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 400px;
+   
+    }
+
+.bridge h1{
+    width: 180px;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:45px; 
+    
+}
+.bridge p{
+    padding: 0;
+    margin:0;
+    padding-top: 20px; 
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.bridge-txt .bridge-numeration{
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
     
 }
 .img {
