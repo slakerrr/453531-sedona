@@ -524,19 +524,14 @@ body{
         
 }
 .main-head h1{
-    
     padding:0;
     margin:0;
     margin-bottom:19px;
-    
-}
+    }
 .main-head h2{
-    
     padding-top:;
     margin:0;
-    
-    
-}
+    }
 .best-5things {
     margin: 0;
     padding: 0;
@@ -544,8 +539,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
-    
+    width: 100%
+        
 }
 .true-city {
     text-decoration: none;
@@ -641,6 +636,22 @@ body{
     height: auto;
 }
 
+.small-town,
+.road,
+.free-place {
+    
+    margin: 0;
+    padding: 0;
+    min-height: 256px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center; 
+
+}
+
 .recomendation {
     margin: 0;
     padding: 0;
@@ -698,10 +709,35 @@ padding: 0 45px;
     display: flex;
     width: 400px;
     min-height: 256px;
-    margin-bottom: 5;
+    margin-bottom: ;
     flex-direction: column;
-   justify-content: center;
+   justify-content: flex-start;
   
+}
+
+.small-town h1,
+.road h1,
+.free-place h1 {
+    margin:0;
+    padding:0 160px; 
+    margin-top: 45px;
+}
+
+
+.small-town :nth-child(2),
+.road :nth-child(2),
+.free-place :nth-child(2) {
+    margin:0;
+    padding: 0;
+    margin-top: 25px;
+}
+.small-town :nth-child(3),
+.road :nth-child(3),
+.free-place :nth-child(3) {
+    margin: 0;
+    padding: 0;
+    padding:  0 60px;
+    margin-top: 20px;
 }
  
 h2 {
