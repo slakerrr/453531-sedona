@@ -620,19 +620,25 @@ body{
     margin: 0;
     padding: 0;
 }
-.souvenirs p {
+.souvenirs p,
+.food p,
+.estate p{
  margin-top: 25px;
-padding: 0 20px;    
-  
-   
-}
-.souvenirs h1 {
+padding: 0 45px;    
+ }
+.souvenirs h1,
+.food h1,
+.estate h1{
    margin-top: 25px;
-    
     }
-.souvenirs div{
+.souvenirs div,
+.food div,
+.estate div
+{
  margin-top: 57px; 
 }
+
+
 
 .bridge {
    display: flex;
