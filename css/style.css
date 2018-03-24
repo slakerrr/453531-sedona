@@ -130,10 +130,16 @@ h2~p {
 .search-form{
     width: 568px;
     height: 395px;
+    position: absolute;
+    left: 50%;
+    top: 291px;
+    transform: translateX(-50%);
+  
+    
 }
 .search-btn{
      width: 568px;
-    height: 86px;
+    min-height: 86px;
     font: inherit;
     text-transform: uppercase;
     background-color: #766357;
@@ -750,25 +756,32 @@ h2 {
 
 
 .interested {
+    position:relative;
     width: 100%;
-    display: flex;
+    min-height: 764px;
     margin: 0;
     padding: 0;
-    background-color:aquamarine;
-    height: auto;
+    background-color:#ffffff;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    flex-wrap: wrap;
+    }
 .container{
     list-style: none;
     padding: 0;
     margin: 0;
-    width:568px; 
-    height: 205px;
-    background-color:yellowgreen;
-    justify-content: center;
-    flex-direction: column;
-    
+    width:100%; 
+    min-height: 205px;
+    }
+.container :first-child{
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+}
+.container :nth-child(2){
+    padding: 0;
+    margin: 0;
+    padding-top:27px;
 }
 .search-form{
     background-color: darkcyan;
@@ -777,7 +790,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+    z-index: 2;
 }
 .form-line {
     flex-direction: column;
