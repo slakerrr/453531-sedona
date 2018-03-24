@@ -128,21 +128,8 @@ h2~p {
   text-align: center;  
 }
 .search-form{
-    width: 568px;
-    height: 395px;
-    position: absolute;
-    left: 50%;
-    top: 291px;
-    transform: translateX(-50%);
-    background-color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     
-        
-}
+   }
 .search-btn{
      width: 568px;
     min-height: 86px;
@@ -790,15 +777,76 @@ h2 {
     padding-top:27px;
 }
 .search-form{
-    
+    width: 568px;
+    height: 395px;
+    position: absolute;
+    left: 50%;
+    top: 291px;
+    transform: translateX(-50%);
+    width: 568px;
+    height: 395px;
+    position: absolute;
+    left: 50%;
+    top: 291px;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .form-line {
     flex-direction: column;
     justify-content: center;
-   
-   
+ }
+.date-in,
+.date-out {
+    min-width: 458px;
+   }
+.date-out label,
+.date-in label{
+  background-color: aquamarine;
+   }
+.date-in input[type="text"]
+ {
+    font: inherit;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    width: 346px;
+    padding: 1px 32px;
+    margin-top: 40px;
+     
+}
+.date-out input[type="text"]{
+  font: inherit;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    width: 346px;
+    padding: 0px 32px;
+    margin-top: 0px; 
     
+}
+.half-width input[type="text"]{
+  font: inherit;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    width: 114px;
+    padding: 0px 32px;
+    margin-top: 0px; 
     
+}
+.icon-calendar{
+    background-image: url(/img/calendar.svg);
+    background-repeat: no-repeat;
+    width:21px;
+    height: 22px;
+    color:red;
+}
+.find-btn{
+    padding:0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 41px;
     
 }
 .map {
