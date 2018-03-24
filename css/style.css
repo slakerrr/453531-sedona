@@ -190,13 +190,17 @@ h2~p {
 .social-btn {
     width: 46px;
     height: 48px;
-  background-color: #81b3d2;
-  font-family: "PT Sans", Arial, sans-serif;
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: bold;
+    background-color: #81b3d2;
+    font-family: "PT Sans", Arial, sans-serif;
     color: #ffffff;
     text-transform: uppercase; 
+    display: flex;
+    padding: 0;
+    margin-left:0;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:;
+    margin-left:;
 }
 
 .footer-copyright {
@@ -849,9 +853,7 @@ h2 {
     margin-bottom: 41px;
     
 }
-.map {
- 
-}
+
 
 
 
@@ -863,23 +865,39 @@ h2 {
     min-height: 120px;
     width: 100%;
     flex-direction:row;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center
+}
+.visit-block{
+    margin:0;
+    padding:0;
+    padding-left: 135px;
+    
 }
 
 .footer-social{
     display: flex;
-    
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 150px;
+    list-style: none;
+    margin-bottom: 27px;
+    margin-left: 16px;
+  }
+.main-footer div{
+    width: 33%;
+    min-height:120px;
+    align-content: space-between;
 }
-.footer-social :first-child{
-    padding-right: 6px;
+.copyright{
+    margin-left: 10px;
 }
-.footer-social :last-child{
-    padding-left: 6px;
-}
-
-
+.copyright :last-child {
+    width: 109px;
+    height: 37px;
+    margin: 0;
+    padding: 0;
+   }
 
 
 /* CATALOG.HTML*/
