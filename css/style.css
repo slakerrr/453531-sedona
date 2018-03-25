@@ -232,11 +232,12 @@ h2~p {
     font-weight: bold;
 }
 
-legend {
+.filter-infrastructure legend,
+.filter-type legend{
   font-size: 16px;
  line-height: 21px;
  font-weight: bold;
-    color:darkgoldenrod;
+  
 }
 
 .checkbox,
@@ -269,96 +270,7 @@ label input {
 }
 
 
-.found {
-    font-size: 21px;
- line-height: 26px;
- font-weight: bold;
-}
 
-.hotel-sort,   /* нет активного состояния после нажатия */ 
-.sort-price,
-.sort-type,
-.sort-rait  {
-   font-size: 12px;
- line-height: 18px;
- font-weight: bold;
-    color:black;        
-}
-a.sort-price,
-a.sort-type,
-a.sort-rait  {
-    opacity: 0.3;
-    border-bottom: 1px dashed #81b3d2;
-}
-
- a.sort-price:hover,
-a.sort-type:hover,
-a.sort-rait:hover {
-    opacity: inherit;
-    color: #81b3d2;
-    text-decoration: none; 
-    border-bottom: 1px dashed #81b3d2;
-   }
-
-a.sort-price:active,
-a.sort-type:active,
-a.sort-rait:active {
-    opacity: inherit;
-    color: black;
-    text-decoration: none; 
-    border-bottom: 0px dashed #81b3d2;
-   }
-
-
-.contain{
-    display: inline-block;
-}
-.triangle-up {
-   width: 0;
-    height: 0;
-    border-bottom: 11px solid #cacaca;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 0px solid transparent;
-} 
-.triangle-up:hover {
-   width: 0;
-    height: 0;
-    border-bottom: 11px solid #231f20;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 0px solid transparent;
-} 
-.triangle-up:active {
-   width: 0;
-    height: 0;
-    border-bottom: 11px solid #81b3d2;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 0px solid transparent;
-} 
-.triangle-down {
-   width: 0;
-    height: 0;
-    border-top: 11px solid #cacaca;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-} 
-.triangle-down:hover {
-   width: 0;
-    height: 0;
-    border-top: 11px solid #231f20;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-} 
-.triangle-down:active {
-   width: 0;
-    height: 0;
-    border-top: 11px solid #81b3d2;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-} 
- 
 
 h3 {
   font-size: 21px;
@@ -942,15 +854,20 @@ h2 {
 
 
 /* CATALOG.HTML*/
-
+.filter-block{
+    margin: 0;
+    padding: 0;
+}
 .form-container {
     width: 100%;
-    background-color: aquamarine;
     display: flex;
     margin:0;
     padding:0;
     min-height: 217px;
     background-image: url("../img/background2short.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
    }
 
 .filter-form {
@@ -958,30 +875,53 @@ h2 {
     display: flex;
     justify-content:space-between;
     height: auto;
-    padding-left:71px;
-    padding-right: 71px;
-   
-        
-}
-
-. {
-  margin: 0;               /*вероятно не верно*/
     padding: 0;
-   height: auto;
+    margin: 0;
+    }
+
+.filter-infrastructure {
+    margin: 0;               /*вероятно не верно*/
+    padding: 0;
+    width: 300px;
+    height: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: pace-around;
     
+}
+.filter-infrastructure legend{
+  padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    padding-left: 71px;
+    padding-top: 26px;
+}
+.filter-type {
+    margin: 0;               /*вероятно не верно*/
+    padding: 0;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: pace-around;   
+}
+.filter-type legend{
+  padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    padding-left: 23px;
+    padding-top: 27px;  
 }
 
 /*фильтр форма с полосой */
 
 .filter-range {
   width: 330px;
-  margin: 30px auto; /* для демо */
-
-  color: #ffffff;
-  text-transform: uppercase;
+    padding:0
+    margin:0;
+    color: #ffffff;
+    text-transform: uppercase;
+    min-height: 217px;
 }
 
 .filter-range-title {
@@ -1118,25 +1058,129 @@ h2 {
     min-height: 86px;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: row;
+   
     
    
 }
 .sort {
+    list-style: none;
+     display: flex;
+    background-color: white;
     padding: 0;
     margin: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    
+    min-height: 86px;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    }
+.sort :first-child{
+  background-color: red;  
 }
 
 .found {
-    width: 20%;
+    display: block;
+    width: 190px;
+    margin:0;
+    padding: 0;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    padding-left: 15px;
 }
+.hotel-sort {
+  margin:0;
+    padding: 0;
+    padding-right: 60px
+}
+
+.hotel-sort,   /* нет активного состояния после нажатия */ 
+.sort-price,
+.sort-type,
+.sort-rait  {
+   font-size: 12px;
+ line-height: 18px;
+ font-weight: bold;
+    color:black;        
+}
+a.sort-price,
+a.sort-type,
+a.sort-rait  {
+    opacity: 0.3;
+    border-bottom: 1px dashed #81b3d2;
+}
+
+ a.sort-price:hover,
+a.sort-type:hover,
+a.sort-rait:hover {
+    opacity: inherit;
+    color: #81b3d2;
+    text-decoration: none; 
+    border-bottom: 1px dashed #81b3d2;
+   }
+
+a.sort-price:active,
+a.sort-type:active,
+a.sort-rait:active {
+    opacity: inherit;
+    color: black;
+    text-decoration: none; 
+    border-bottom: 0px dashed #81b3d2;
+   }
+
+
+.contain{
+    display: inline-block;
+}
+.triangle-up {
+   width: 0;
+    height: 0;
+    border-bottom: 11px solid #cacaca;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 0px solid transparent;
+} 
+.triangle-up:hover {
+   width: 0;
+    height: 0;
+    border-bottom: 11px solid #231f20;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 0px solid transparent;
+} 
+.triangle-up:active {
+   width: 0;
+    height: 0;
+    border-bottom: 11px solid #81b3d2;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 0px solid transparent;
+} 
+.triangle-down {
+   width: 0;
+    height: 0;
+    border-top: 11px solid #cacaca;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+} 
+.triangle-down:hover {
+   width: 0;
+    height: 0;
+    border-top: 11px solid #231f20;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+} 
+.triangle-down:active {
+   width: 0;
+    height: 0;
+    border-top: 11px solid #81b3d2;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+} 
+ 
+
+/* Отели*/
+
 .hotels-container {
    width: 100%;
     padding: 0;
