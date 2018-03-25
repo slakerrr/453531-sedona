@@ -272,23 +272,32 @@ label input {
 
 
 
-h3 {
+.hotel-title {
   font-size: 21px;
  line-height: 26px;
- font-weight: bold;   
+ font-weight: bold;
+    cursor: pointer;
 }
-h3:hover{
-   color: #81b3d2 
+.hotel-title:hover{
+   color: #81b3d2;
+    cursor: pointer;
 }
-h3:active{
+.hotel-title:active{
    color: black;
     opacity: 0.3;
+    cursor: pointer;
 }
 
 
 .details {
+    display: inline-block;
+  width: 110px;
+  height: 27px;
  color: white;
-background-color: #81b3d2;    
+background-color: #81b3d2;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
 }
 .details:hover {
  background-color: #669ec0;   
@@ -300,8 +309,16 @@ background-color: #81b3d2;
 
 
 .book {
+    display: inline-block;
+  width: 142px;
+  height: 27px;
  color: white;
-background-color: #766357;    
+  background-color: #766357;  
+    
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+    
 }
 .book:hover {
  background-color: #604e43;   
@@ -1191,7 +1208,7 @@ a.sort-rait:active {
 
 .hotels-container {
    width: 100%;
-    min-height: 540px;
+    min-height: 452px;
     padding: 0;
     margin: 0;
     background-color:white;
@@ -1228,16 +1245,21 @@ a.sort-rait:active {
     margin-top: 6px;
 }
 .hotel-container{
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     width: 258px;
     margin-left: 30px;
+    margin-bottom:;
 }
 .hotel-type{
     width:110px; 
 }
 .reserve {
     width: 142px;
+    text-align: left;
+    margin-left: 6px;
     
 }
 .ratio {
@@ -1246,10 +1268,16 @@ a.sort-rait:active {
     width: 110px;
     
 }
-
+.hotel-type b,
+.reserve b{
+  display: block;
+    margin-bottom:13px; 
+}
 
 .hotels-amara h3,
 .hotels-desert h3,
 .hotel-diablo h3{
+   margin: 0;
+    padding: 0;
     
 }
