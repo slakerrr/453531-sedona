@@ -1203,6 +1203,8 @@ a.sort-rait:active {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 .hotels-amara,
 .hotels-desert,
@@ -1216,7 +1218,27 @@ a.sort-rait:active {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content:flex-start;
 }
+.hotel-diablo{
+   border-bottom: solid 1px #e5e5e5; 
+}
+.photo {
+    margin-left: 72px;
+    margin-top: 6px;
+}
+.hotel-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hotel-type{
+    width:110px; 
+}
+.reserve {
+    width: 142px;
+    
+}
+
 
 .hotels-amara h3,
 .hotels-desert h3,
