@@ -1230,12 +1230,20 @@ a.sort-rait:active {
 .hotel-container{
     display: flex;
     flex-wrap: wrap;
+    width: 258px;
+    margin-left: 30px;
 }
 .hotel-type{
     width:110px; 
 }
 .reserve {
     width: 142px;
+    
+}
+.ratio {
+    margin-left: 522px;
+    text-align: right;
+    width: 110px;
     
 }
 
