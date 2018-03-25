@@ -523,16 +523,16 @@ body{
     text-decoration: none; 
     text-align: center;
     margin: 0;
-    margin-bottom: 59px;
+    margin-bottom: 51px;
         
 }
 .main-head h1{
     padding:0;
     margin:0;
-    margin-bottom:19px;
+    margin-bottom:26px;
     }
 .main-head h2{
-    padding-top:;
+    padding:0;
     margin:0;
     }
 .best-5things {
@@ -805,17 +805,22 @@ h2 {
 .date-in,
 .date-out {
     min-width: 458px;
+    margin: 0;
+    padding: 0;
    }
 .date-out label,
 .date-in label{
   background-color: aquamarine;
    }
-.date-in input[type="text"]
+.date-in input
  {
+     margin:0;
+     padding: 0;
     font: inherit;
     text-transform: uppercase;
     box-sizing: border-box;
-    width: 346px;
+    min-width: 346px;
+     height: 48px;
     padding: 1px 32px;
     margin-top: 40px;
      
@@ -893,7 +898,7 @@ h2 {
     margin: 0;
     padding: 0;
     padding-top: 29px;
-    padding-left: 127px;
+    padding-left: 122px;
   }
 .main-footer div{
     width: 33%;
@@ -901,14 +906,39 @@ h2 {
     align-content: space-between;
 }
 .copyright{
-    margin-left: 10px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+   }
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    
 }
-.copyright :last-child {
+.copyright a{
     width: 109px;
     height: 37px;
     margin: 0;
     padding: 0;
    }
+.copyright p{
+    margin: 0;
+    padding: 0;
+    margin-top:33px;
+    margin-left: 100px
+    
+}
+.copyright b{
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
+    padding-right: 8px;
+     
+}
 
 
 /* CATALOG.HTML*/
