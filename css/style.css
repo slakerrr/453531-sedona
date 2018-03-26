@@ -248,14 +248,20 @@ h2~p {
  content: "";
   display: inline-block;
   
-  width: 23px;
-  height: 23px;
+  width: 26px;
+  height: 24px;
   
-  background-image:url("../img/checkbox-off.svg");   
+  background-image:url("../img/checkbox-off.svg");
+    background-repeat: no-repeat
 }
 .checkbox input:checked + label::before {
   background-image:url("../img/checkbox-on.svg");
 }
+.checkbox input[disabled]{
+   background-color: red; 
+}
+
+
 .price-filter {
     background-color: transparent;
     border: 2px white solid;
@@ -942,16 +948,33 @@ h2 {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: pace-around;
+    
+    
     
 }
 .filter-infrastructure legend{
   padding: 0;
     margin: 0;
     letter-spacing: 1px;
-    padding-left: 71px;
-    padding-top: 26px;
+    margin-left: 71px;
+    margin-top: 26px;
 }
+.filter-infrastructure ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 72px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.filter-infrastructure li:nth-child(n+1){
+    padding-bottom: 16px;
+    
+}
+
+
 .filter-type {
     margin: 0;               /*вероятно не верно*/
     padding: 0;
@@ -959,14 +982,14 @@ h2 {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: pace-around;   
+    justify-content:;   
 }
 .filter-type legend{
   padding: 0;
     margin: 0;
     letter-spacing: 1px;
-    padding-left: 23px;
-    padding-top: 27px;  
+    padding-left: px;
+    padding-top: px;  
 }
 
 /*фильтр форма с полосой */
