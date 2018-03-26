@@ -763,8 +763,8 @@ h2 {
     justify-content: space-around;
 }
 .form-line {
-    flex-direction: column;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
  }
 .date-in,
 .date-out {
@@ -803,16 +803,40 @@ h2 {
     text-transform: uppercase;
     box-sizing: border-box;
     width: 114px;
+    height: 38px;
     padding: 0px 32px;
     margin-top: 0px; 
     
 }
 .icon-calendar{
-    background-image: url(/img/calendar.svg);
+    background-image: url("../img/calendar.svg");
     background-repeat: no-repeat;
-    width:21px;
+    width:22px;
     height: 22px;
-    color:red;
+    position: 
+}
+.plus-btn::before,
+.plus-btn::after {
+    content: "";
+    position: absolute;
+    font-size: 0;
+    width: 19px;
+    height: 3px;
+    background-color: aquamarine;
+}
+.plus-btn::before {
+  transform: rotate(90deg);
+}
+
+.plus-btn::after {
+  transform: rotate(-0deg);
+}
+.minus-btn::before{
+ content: "";
+    position: absolute;
+    width: 19px;
+    height: 3px;
+    background-color: aquamarine;   
 }
 .find-btn{
     padding:0;
