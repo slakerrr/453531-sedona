@@ -789,13 +789,15 @@ h2 {
     margin-top: 40px;
      
 }
-.date-out input[type="text"]{
+.date-out input[type="text"],
+.date-in input[type="text"] {
   font: inherit;
     text-transform: uppercase;
     box-sizing: border-box;
     width: 346px;
+    height: 38px;
     padding: 0px 32px;
-    margin-top: 0px; 
+    margin-top: 45px; /*000000000000000000000000000000000*/
     
 }
 .half-width input[type="text"]{
