@@ -935,16 +935,17 @@ h2 {
 .filter-form {
     width:100% ;
     display: flex;
-    justify-content:space-between;
+    justify-content:flex-start;
     height: auto;
     padding: 0;
     margin: 0;
     }
 
-.filter-infrastructure {
+.filter-infrastructure,
+.filter-type {
     margin: 0;               /*вероятно не верно*/
     padding: 0;
-    width: 300px;
+    min-width: 250px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -952,7 +953,8 @@ h2 {
     
     
 }
-.filter-infrastructure legend{
+.filter-infrastructure legend,
+.filter-type legend{
   padding: 0;
     margin: 0;
     letter-spacing: 1px;
@@ -973,34 +975,29 @@ h2 {
     padding-bottom: 16px;
     
 }
-
-
-.filter-type {
-    margin: 0;               /*вероятно не верно*/
+.filter-type ul{
+   margin: 0;
     padding: 0;
-    width: 300px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content:;   
+    margin-left: 76px;
+    margin-top: 25px;
 }
-.filter-type legend{
-  padding: 0;
-    margin: 0;
-    letter-spacing: 1px;
-    padding-left: px;
-    padding-top: px;  
+.filter-type li:nth-child(n+1){
+    padding-bottom: 16px;
+    
 }
+
 
 /*фильтр форма с полосой */
 
 .filter-range {
   width: 330px;
-    padding:0
+    padding:0;
     margin:0;
+    padding-left: 298px;
+    padding-top: 26px;
     color: #ffffff;
     text-transform: uppercase;
-    min-height: 217px;
+    min-height: 150px;
 }
 
 .filter-range-title {
