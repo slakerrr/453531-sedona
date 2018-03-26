@@ -1146,11 +1146,11 @@ h2 {
         }
 .sort li:nth-child(6) {
     width: auto;
-    padding-left: 501px;
+    padding-left: 505px;
         }
 .sort li:nth-child(7) {
     width: auto;
-    padding-left: 3px;
+    padding-left: 11px;
         }
 
 .hotel-sort,   /* нет активного состояния после нажатия */ 
@@ -1194,30 +1194,30 @@ a.sort-rait:active {
 .triangle-up {
     width: 0;
     height: 0;
-    border-bottom: 11px solid #cacaca;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
+    border-bottom: 10px solid #cacaca;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
     border-top: 0px solid transparent;
 } 
 .triangle-up:hover {
-      border-bottom: 11px solid #231f20;
+      border-bottom: 10px solid #231f20;
    } 
 .triangle-up:active {
-      border-bottom: 11px solid #81b3d2;
+      border-bottom: 10px solid #81b3d2;
   
 } 
 .triangle-down {
    width: 0;
     height: 0;
-    border-top: 11px solid #cacaca;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
+    border-top: 10px solid #cacaca;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
 } 
 .triangle-down:hover {
-    border-top: 11px solid #231f20;
+    border-top: 10px solid #231f20;
    } 
 .triangle-down:active {
-   border-top: 11px solid #81b3d2;
+   border-top: 10px solid #81b3d2;
  } 
  
 
