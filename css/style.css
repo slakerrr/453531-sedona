@@ -314,10 +314,11 @@ background-color: #81b3d2;
   height: 27px;
  color: white;
   background-color: #766357;  
-    
+    vertical-align: center;
     text-align: center;
     font-family: inherit;
     font-weight: bold;
+  
     
 }
 .book:hover {
@@ -335,27 +336,36 @@ background-color: #81b3d2;
     background-color: #f2f2f2;
     color: #666666;
     text-align:center;
+    padding-top: 50px;
+    padding-left: 1px;
     
 }
 
 
 .stars4 {
     background-image: url(../img/star.svg);  
-    background-repeat: repeat-x;
-    width: 74px;
-    height: 19px;
+    background-repeat:repea;
+    width: 89px;
+    height: 17px;
+   background-repeat: space;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 .stars3 {
     background-image: url(../img/star.svg);
-    background-repeat: repeat-x;
-    width: 54px;
-    height: 19px;
+    background-repeat: space;
+    width: 63px;
+    height: 17px;
+     margin-top: 30px;
+    margin-left: 45px;
 }
 .stars2 {
     background-image: url(../img/star.svg);
-    background-repeat: repeat-x;
-    width: 36px;
-    height: 19px;
+    background-repeat: space;
+    width: 40px;
+    height: 17px;
+     margin-top: 30px;
+    margin-left: 70px;
 }
 
 
@@ -1250,9 +1260,11 @@ a.sort-rait:active {
     display: flex;
     flex-wrap: wrap;
     width: 258px;
+    min-height:150px; 
     margin-left: 30px;
     margin-bottom:;
 }
+
 .hotel-type{
     width:110px; 
 }
@@ -1260,24 +1272,30 @@ a.sort-rait:active {
     width: 142px;
     text-align: left;
     margin-left: 6px;
+    margin-bottom: 25px;
     
 }
 .ratio {
     margin-left: 522px;
     text-align: right;
     width: 110px;
+    min-height: 150px;
+    
+}
+.ratio div:first-child{
     
 }
 .hotel-type b,
 .reserve b{
   display: block;
-    margin-bottom:13px; 
+    margin-bottom:15px; 
 }
 
 .hotels-amara h3,
 .hotels-desert h3,
 .hotel-diablo h3{
+    display: block;
    margin: 0;
     padding: 0;
-    
+   margin-top: 25px; 
 }
