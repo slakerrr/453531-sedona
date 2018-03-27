@@ -67,7 +67,9 @@ ul>li{
     color: #81b3d2;
 }
 
-
+.catalog-version a{
+  color: #766357;  
+}
 .main-head h1 {
     font-size: 21px;
     line-height: 26px;
@@ -1225,7 +1227,7 @@ h2 {
  font-weight: bold;
     color:black;        
 }
-a.sort-price,
+
 a.sort-type,
 a.sort-rait  {
     opacity: 0.3;
@@ -1250,7 +1252,10 @@ a.sort-rait:active {
     border-bottom: 0px dashed #81b3d2;
    }
 
-
+.sort-price{
+    color:#81b3d2;
+    opacity: inherit;
+}
 .contain{
     display: block;
    }
