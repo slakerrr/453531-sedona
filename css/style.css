@@ -239,7 +239,7 @@ h2~p {
   
 }
 
-.checkbox input{              /* на чекбоксы не вешается стилизация */ 
+.checkbox input{              
    display: none;
 }
 .checkbox input + label{
@@ -262,8 +262,24 @@ h2~p {
 .checkbox input[disabled]{
    background-color: red; 
 }
+/* ------------------dibabled checkbox---------------*/
 
+.checkbox input[disabled] + label{
+    cursor: pointer;
+}
 
+.checkbox input[disabled] + label::before {
+ content: "";
+  display: inline-block;
+  width: 26px;
+  height: 24px;
+  background-image:url("../img/checkbox-off-blocked.svg");
+  background-repeat: no-repeat
+}
+.checkbox input[disabled]:checked + label::before {
+  background-image:url("../img/checkbox-on-blocked.svg");
+}
+/*---------------------------------------------------*/
 .price-filter {
     background-color: transparent;
     border: 2px white solid;
