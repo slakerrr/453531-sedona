@@ -140,13 +140,14 @@ h2~p {
     font-weight: bold;
     color: #ffffff;
 }
-.search-btn:active {
-  background-color: #503e33;
-  opacity: 0.3;    
-}
 .search-btn:hover {
   background-color: #604e43;
 }
+.search-btn:active {
+  background-color: #503e33;
+  color:#928a85;    
+}
+
 .field {
     background-color: #f2f2f2;
 }
