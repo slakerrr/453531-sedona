@@ -316,6 +316,7 @@ background-color: #81b3d2;
     text-align: center;
     font-family: inherit;
     font-weight: bold;
+    vertical-align:middle;
 }
 .details:hover {
  background-color: #669ec0;   
@@ -1277,7 +1278,7 @@ a.sort-rait:active {
 .triangle-down {
    width: 0;
     height: 0;
-    border-top: 10px solid #cacaca;
+    border-top: 10px solid #81b3d2;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
 } 
@@ -1293,7 +1294,7 @@ a.sort-rait:active {
 
 .hotels-container {
    width: 100%;
-    min-height: 452px;
+    min-height: 454px;
     padding: 0;
     margin: 0;
     background-color:white;
@@ -1302,6 +1303,7 @@ a.sort-rait:active {
     
     }
 .hotels-container ul{
+   
     margin: 0;
     padding: 0;
     list-style: none;
@@ -1324,6 +1326,7 @@ a.sort-rait:active {
 }
 .hotel-diablo{
    border-bottom: solid 1px #e5e5e5; 
+    margin-bottom: 8px;
 }
 .photo {
     margin-left: 72px;
@@ -1337,7 +1340,7 @@ a.sort-rait:active {
     width: 258px;
     min-height:150px; 
     margin-left: 30px;
-    margin-bottom:;
+   
 }
 
 .hotel-type{
