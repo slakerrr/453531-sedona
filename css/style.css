@@ -228,12 +228,13 @@ h2~p {
 
 .site-navigation,
 .user-navigation{
+    
    list-style: none;
     font-weight: bold;
 }
 
-.filter-infrastructure legend,
-.filter-type legend{
+.filter-infrastructure h2,
+.filter-type h2{
   font-size: 16px;
  line-height: 21px;
  font-weight: bold;
@@ -260,9 +261,7 @@ h2~p {
 .checkbox input:checked + label::before {
   background-image:url("../img/checkbox-on.svg");
 }
-.checkbox input[disabled]{
-   background-color: red; 
-}
+
 /* ------------------dibabled checkbox---------------*/
 
 .checkbox input[disabled] + label{
@@ -281,6 +280,9 @@ h2~p {
   background-image:url("../img/checkbox-on-blocked.svg");
 }
 /*---------------------------------------------------*/
+
+
+
 .price-filter {
     background-color: transparent;
     border: 2px white solid;
@@ -383,7 +385,6 @@ background-color: #81b3d2;
 
 .stars4 {
     background-image: url(../img/star.svg);  
-    background-repeat:repea;
     width: 89px;
     height: 17px;
    background-repeat: space;
@@ -770,74 +771,70 @@ h2 {
     width: 568px;
     height: 395px;
     position: absolute;
-    left: 50%;
     top: 291px;
+    left: 50%;
     transform: translateX(-50%);
     width: 568px;
     height: 395px;
-    position: absolute;
-    left: 50%;
-    top: 291px;
-    transform: translateX(-50%);
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-weight: bold;
+    
 }
 .form-line {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    
  }
+.half-width{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .date-in,
 .date-out {
-    min-width: 458px;
     margin: 0;
     padding: 0;
+   
    }
-.date-out label,
-.date-in label{
-  background-color: aquamarine;
-   }
-.date-in input
- {
-     margin:0;
-     padding: 0;
-    font: inherit;
-    text-transform: uppercase;
-    box-sizing: border-box;
-    min-width: 346px;
-     height: 48px;
-    padding: 1px 32px;
-    margin-top: 40px;
-     
-}
+
 .date-out input[type="text"],
 .date-in input[type="text"] {
-  font: inherit;
+    font: inherit;
     text-transform: uppercase;
     box-sizing: border-box;
     width: 346px;
     height: 38px;
     padding: 0px 32px;
-    margin-top: 45px; /*000000000000000000000000000000000*/
-    
+    margin-top: 45px;
+    margin-left: 45px;   
+}
+.date-out input[type="text"]{
+    margin-bottom: 100px;
 }
 .half-width input[type="text"]{
-  font: inherit;
+    font: inherit;
     text-transform: uppercase;
     box-sizing: border-box;
     width: 114px;
     height: 38px;
-    padding: 0px 32px;
+    padding: 0px 50px;
     margin-top: 0px; 
     
 }
+
 .icon-calendar{
     background-image: url("../img/calendar.svg");
     background-repeat: no-repeat;
-    width:22px;
-    height: 22px;
-    position: 
+    width: 23px;
+    height: 25px;
+    background-color: transparent;
+    position: relative;
+    right:38px;
+    top:4px;
 }
 .plus-btn::before,
 .plus-btn::after {
@@ -846,7 +843,7 @@ h2 {
     font-size: 0;
     width: 19px;
     height: 3px;
-    background-color: aquamarine;
+    background-color: black;
 }
 .plus-btn::before {
   transform: rotate(90deg);
@@ -1001,8 +998,8 @@ h2 {
     
     
 }
-.filter-infrastructure legend,
-.filter-type legend{
+.filter-infrastructure h2,
+.filter-type h2{
   padding: 0;
     margin: 0;
     letter-spacing: 1px;
@@ -1022,6 +1019,12 @@ h2 {
 .filter-infrastructure li:nth-child(n+1){
     padding-bottom: 16px;
     
+}
+.pool{
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: 13px;
 }
 .filter-type ul{
    margin: 0;
