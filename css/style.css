@@ -240,7 +240,13 @@ h2~p {
  font-weight: bold;
   
 }
-
+.checkbox{
+    display: flex;
+    }
+label::before {
+    margin-right: 15px;
+    
+    }
 .checkbox input{              
    display: none;
 }
@@ -282,17 +288,15 @@ h2~p {
 /*---------------------------------------------------*/
 
 
+.checkbox label{
+    
+}
 
 .price-filter {
     background-color: transparent;
     border: 2px white solid;
     color: darkgoldenrod;
 }
-input,
-label input {
-    color: darkgoldenrod;
-}
-
 
 .showme {
     height: 32px;
