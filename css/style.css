@@ -67,7 +67,10 @@ ul>li{
     color: #81b3d2;
 }
 
-.catalog-version a{
+.catalog-version a,
+.catalog-version a:hover,
+.catalog-version a:active
+{
   color: #766357;  
 }
 .main-head h1 {
@@ -240,10 +243,13 @@ h2~p {
  font-weight: bold;
   
 }
-.checkbox{
-    display: flex;
+li.checkbox{
+    display: block;
+    margin:0;
+    padding: 0;
     }
 label::before {
+   
     margin-right: 15px;
     
     }
@@ -288,9 +294,6 @@ label::before {
 /*---------------------------------------------------*/
 
 
-.checkbox label{
-    
-}
 
 .price-filter {
     background-color: transparent;
@@ -832,6 +835,7 @@ h2 {
 
 .icon-calendar{
     background-image: url("../img/calendar.svg");
+    fill: red;
     background-repeat: no-repeat;
     width: 23px;
     height: 25px;
@@ -840,6 +844,15 @@ h2 {
     right:38px;
     top:4px;
 }
+.icon-calendar span:hover path,
+.icon-calendar span:hover rect{
+    fill: #000000;
+      }
+.icon-calendar span:active path,
+.icon-calendar span:active rect{
+    fill: #81b3d2;
+      }
+
 .plus-btn::before,
 .plus-btn::after {
     content: "";
@@ -1245,7 +1258,7 @@ h2 {
     padding-left: 11px;
         }
 
-.hotel-sort,   /* нет активного состояния после нажатия */ 
+.hotel-sort,   
 .sort-price,
 .sort-type,
 .sort-rait  {
@@ -1386,9 +1399,6 @@ a.sort-rait:active {
     min-height: 150px;
     
 }
-.ratio div:first-child{
-    
-}
 .hotel-type b,
 .reserve b{
   display: block;
@@ -1403,3 +1413,10 @@ a.sort-rait:active {
     padding: 0;
    margin-top: 25px; 
 }
+/*
+.catalog-version a,
+.catalog-version a:hover,
+.catalog-version a:active{
+  color: #766357;  
+}
+*/
