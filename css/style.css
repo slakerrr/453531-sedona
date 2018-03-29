@@ -787,11 +787,12 @@ h2 {
     left:316px;
     background-color: white;
     }
-.search-hotel-wrap {
-  margin: 0;
-  padding: 0;
-  width: 465px;
-  margin: 0 auto;
+.form-wrap{
+    margin: 0;
+    padding: 0;
+    width: 465px;
+    background-color: bisque;
+   margin: 0 52px;
 }
  .date-in,
 .date-out {
@@ -806,15 +807,20 @@ h2 {
   align-items: center;
   width: 465px;
 }
+.date-in label,
+.date-out label{
+    margin-left: 5px;
+  }
+
 
 .date-out input,
 .date-in input {
  position: relative;
   box-sizing: border-box;
   width: 346px;
-  padding-top: 6px;
-  padding-left: 15px;
-  padding-bottom: 6px;
+  padding-top: 8px;
+  padding-left: 9px;
+  padding-bottom: 8px;
   padding-right: 38px;
   font: inherit;
   text-transform: uppercase;
@@ -822,6 +828,7 @@ h2 {
   background-color: #f2f2f2;
   color: #000000;
 } 
+
 .field {
     background-color: #f2f2f2;
 }
@@ -852,7 +859,7 @@ h2 {
   width: 465px;
   margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 53px;
+  margin-bottom: 52px;
 }
 .form-line label{
     margin: 0;
@@ -916,7 +923,10 @@ h2 {
 }
 .half-width{
   background-color: antiquewhite;
+    display: flex;
     padding: 10px;
+    height: 40px;
+    align-items: center;
 }
 .form-line{
     background-color: aquamarine;
