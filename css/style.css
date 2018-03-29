@@ -883,7 +883,8 @@ h2 {
   font-weight: bold;
   background-color: #f2f2f2;
   color: #000000;
-  text-align: center;  
+  text-align: center;
+    
 }
 .form-line button{
     margin: 0;
@@ -917,7 +918,7 @@ h2 {
     margin-right:;
 }
 .unit-container-adult{
-    margin-left: px;
+   
 }
 unit-container-kids{
        
@@ -933,10 +934,12 @@ unit-container-kids{
 .half-width{
   background-color: antiquewhite;
     display: flex;
-  
+  margin: 0;
+    padding: 0;
     height: 38px;
-    width: 227px;
-    align-items: center;
+    width: 226px;
+    align-items:center;
+    justify-content: space-between;
    
 }
 .form-line{
