@@ -248,6 +248,11 @@ li.checkbox{
     margin:0;
     padding: 0;
     }
+li.checkbox:nth-child(n+2){
+    display: block;
+    margin-top:5px;
+    padding: 0;
+    }
 label::before {
    
     margin-right: 15px;
@@ -257,8 +262,11 @@ label::before {
    display: none;
 }
 .checkbox input + label{
-    cursor: pointer;
+cursor: pointer;
+display: flex;
+align-items: center;
 }
+
 
 .checkbox input + label::before {
  content: "";
@@ -774,6 +782,8 @@ h2 {
     margin: 0;
     padding-top:27px;
 }
+
+
 .search-form{
     width: 568px;
     height: 395px;
@@ -788,26 +798,12 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
     font-weight: bold;
-    
-}
-.form-line {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
- }
-.half-width{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.date-in,
+    }
+ .date-in,
 .date-out {
     margin: 0;
     padding: 0;
-   
-   }
-
+    }
 .date-out input[type="text"],
 .date-in input[type="text"] {
     font: inherit;
@@ -820,7 +816,18 @@ h2 {
     margin-left: 45px;   
 }
 .date-out input[type="text"]{
-    margin-bottom: 100px;
+margin-top: 0px;
+}
+
+.form-line {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+ }
+.half-width{
+    display: flex;
+    flex-wrap: wrap;
 }
 .half-width input[type="text"]{
     font: inherit;
@@ -829,9 +836,11 @@ h2 {
     width: 114px;
     height: 38px;
     padding: 0px 50px;
-    margin-top: 0px; 
-    
+    margin-top: 5px; 
+     
 }
+
+
 
 .icon-calendar{
     background-image: url("../img/calendar.svg");
@@ -852,7 +861,9 @@ h2 {
 .icon-calendar span:active rect{
     fill: #81b3d2;
       }
-
+.unit-container{
+    position: relative;
+}
 .plus-btn::before,
 .plus-btn::after {
     content: "";
@@ -864,10 +875,17 @@ h2 {
 }
 .plus-btn::before {
   transform: rotate(90deg);
+    position: absolute;
+    top: 3%;
+    left: 3%;
 }
 
 .plus-btn::after {
   transform: rotate(-0deg);
+    position: absolute;
+    top:1px;
+    right: 1px
+    
 }
 .minus-btn::before{
  content: "";
@@ -884,6 +902,7 @@ h2 {
     margin-bottom: 41px;
     
 }
+  
 
 
 
@@ -1058,10 +1077,10 @@ h2 {
 /*фильтр форма с полосой */
 
 .filter-range {
-  width: 330px;
+  width: 318px;
     padding:0;
     margin:0;
-    padding-left: 298px;
+    padding-left: 312px;
     padding-top: 26px;
     color: #ffffff;
     text-transform: uppercase;
@@ -1078,12 +1097,9 @@ h2 {
 
 .price-controls {
   position: relative;
-  
   height: 36px;
   margin-bottom: 20px;
-
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
@@ -1114,12 +1130,13 @@ h2 {
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 65px;
+  padding-left: 61px;
 }
 
 .price-controls input {
   width: 50px;
   margin: 0;
+ 
 
   color: inherit;
   font: inherit;
@@ -1131,7 +1148,7 @@ h2 {
 .range-controls {
   position: relative;
 
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 
 .range-controls .scale {
@@ -1175,8 +1192,11 @@ h2 {
 
 .btn-transparent {
   display: block;
-  margin: 0 auto;
+  margin: 0;
   padding: 6px 35px;
+    margin-left: 81px;
+    
+    
 
   font-size: 14px;
   line-height: 20px;
