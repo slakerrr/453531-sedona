@@ -785,7 +785,7 @@ h2 {
 
 /*---------------------------------------------------------*/
 .search-form{
-    width: 568px;
+    width: 456px;
     height: 395px;
     position: absolute;
     top: 291px;
@@ -803,14 +803,19 @@ h2 {
 .date-out {
     margin: 0;
     padding: 0;
+   
     }
+.day-out label{
+    display: block;
+    margin-left: 13px;
+}
 .date-out input[type="text"],
 .date-in input[type="text"] {
     font: inherit;
     text-transform: uppercase;
     box-sizing: border-box;
-    width: 346px;
-    height: 38px;
+    width: 290px;
+    min-height: 38px;
     padding: 0px 32px;
     margin-top: 45px;
     margin-left: 45px;   
