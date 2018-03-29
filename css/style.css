@@ -911,27 +911,37 @@ h2 {
       }
 .unit-container{
     position: relative;
+    
 }
-
+.form-line .half-width:first-child{
+    margin-right:;
+}
+.unit-container-adult{
+    margin-left: px;
+}
+unit-container-kids{
+       
+}
 .find-btn{
     padding:0;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 41px;
+   margin-top: 3px;
     
 }
 .half-width{
   background-color: antiquewhite;
     display: flex;
-    padding: px;
+  
     height: 38px;
+    width: 227px;
     align-items: center;
    
 }
 .form-line{
     background-color: aquamarine;
-    padding: 10px;
+    
 }
 /*---------------------------------------------------------*/
 
