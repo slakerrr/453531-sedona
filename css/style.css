@@ -776,6 +776,9 @@ h2 {
 
 /*---------------------------------------------------------*/
 .search-form{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
     width: 568px;
   height: 395px;
   padding-top: 45px;
@@ -861,18 +864,11 @@ h2 {
   margin-top: 30px;
   margin-bottom: 52px;
 }
-.form-line label{
+
+.unit-container-adult{
     margin: 0;
-  padding: 0;
-  font-weight: bold;
-}
-.form-line label,
-.form-line div,
-.form-line label,{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  display: flex;
+    padding: 0;
+    
 }
 .form-line input {
   margin: 0;
@@ -898,8 +894,13 @@ h2 {
   color: #a9a9a9;
 }
 
+.form-line button:hover{
+    color:black;
+}
 
-
+.form-line button:active{
+    color:#81b3d2;
+}
 
 
 .icon-calendar span:hover path,
@@ -914,15 +915,7 @@ h2 {
     position: relative;
     
 }
-.form-line .half-width:first-child{
-    margin-right:;
-}
-.unit-container-adult{
-   
-}
-unit-container-kids{
-       
-}
+
 .find-btn{
     padding:0;
     margin: 0;
@@ -932,18 +925,18 @@ unit-container-kids{
     
 }
 .half-width{
-  background-color: antiquewhite;
+    font-weight: inherit;
     display: flex;
-  margin: 0;
+    margin: 0;
     padding: 0;
     height: 38px;
-    width: 226px;
+    width: 195px;
     align-items:center;
     justify-content: space-between;
    
 }
 .form-line{
-    background-color: aquamarine;
+    
     
 }
 /*---------------------------------------------------------*/
