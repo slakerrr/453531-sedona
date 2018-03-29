@@ -795,14 +795,14 @@ h2 {
     padding: 0;
     width: 465px;
     background-color: bisque;
-   margin: 0 52px;
+   margin: 0 51px;
 }
  .date-in,
 .date-out {
    margin: 0;
   padding: 0;
-  margin-bottom: 30px;
-  margin-top: 10px;
+  margin-bottom: 24px;
+  margin-top: 9px;
   position: relative;
   font-weight: bold;
   display: flex;
@@ -812,7 +812,7 @@ h2 {
 }
 .date-in label,
 .date-out label{
-    margin-left: 5px;
+    margin-left: 6px;
   }
 
 
@@ -861,8 +861,8 @@ h2 {
   align-items: center;
   width: 465px;
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 52px;
+  margin-top: 29px;
+  margin-bottom: 51px;
 }
 
 .unit-container-adult{
@@ -930,14 +930,16 @@ h2 {
     margin: 0;
     padding: 0;
     height: 38px;
-    width: 195px;
+    width: 196px;
     align-items:center;
     justify-content: space-between;
    
 }
-.form-line{
-    
-    
+.clearfix :first-child label{
+    padding-left: 3px;
+}
+.clearfix :nth-child(2) label{
+    padding-left: 13px;
 }
 /*---------------------------------------------------------*/
 
