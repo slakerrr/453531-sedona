@@ -924,9 +924,10 @@ h2 {
 .half-width{
   background-color: antiquewhite;
     display: flex;
-    padding: 10px;
-    height: 40px;
+    padding: px;
+    height: 38px;
     align-items: center;
+   
 }
 .form-line{
     background-color: aquamarine;
