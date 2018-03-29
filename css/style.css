@@ -880,6 +880,7 @@ h2 {
   background-color: #f2f2f2;
   color: #000000;
   text-align: center;
+   
     
 }
 .form-line button{
@@ -930,16 +931,18 @@ h2 {
     margin: 0;
     padding: 0;
     height: 38px;
-    width: 196px;
+    width: 232px;
     align-items:center;
     justify-content: space-between;
    
 }
 .clearfix :first-child label{
     padding-left: 3px;
+    margin-right: 1p
 }
 .clearfix :nth-child(2) label{
-    padding-left: 13px;
+    padding-left: 49px;
+    padding-bottom: 2px;
 }
 /*---------------------------------------------------------*/
 
