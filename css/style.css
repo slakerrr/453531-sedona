@@ -1191,6 +1191,7 @@ h2 {
 .copyright a:active path,
 .copyright a:active rect{
     fill: #bdbbbc;
+    transition: transform 0.1s ease;
       }
 .copyright p{
     margin: 0;
