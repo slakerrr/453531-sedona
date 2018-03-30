@@ -465,10 +465,20 @@ body{
   
 }
 .main-navigation{
-    width: 1200px;
-    min-height: 56px;
+     min-height: 56px;
     margin-bottom: 569px;
      background-color:#ffffff;
+    display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    position: relative;
 }
 .catalog-navigation{
      display: -webkit-box;
