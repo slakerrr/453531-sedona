@@ -178,6 +178,14 @@ h2~p {
     margin-bottom:;
     margin-left:;
 }
+.find-btn:active,
+.social-btn:active{
+ background-color:#5496bd;   
+}
+.find-btn:hover,
+.social-btn:hover{
+    background-color:#669ec0;
+}
 
 .footer-copyright {
  font-size: 14px;
@@ -629,6 +637,13 @@ body{
     align-items: center; 
 
 }
+.things{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
 
 .recomendation {
     margin: 0;
@@ -952,14 +967,6 @@ h2 {
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
-}
-.find-btn:active,
-.social-btn:active{
- background-color:#5496bd;   
-}
-.find-btn:hover,
-.social-btn:hover{
-    background-color:#669ec0;
 }
 
 /*---------------------------------------------------------*/
