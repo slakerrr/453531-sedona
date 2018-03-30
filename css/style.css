@@ -153,25 +153,6 @@ h2~p {
 
 
 
-.find-btn {
-     width: 458px;
-    height: 58px;
-    background-color: #81b3d2;
-    font-family: "PT Sans", Arial, sans-serif;
-    font-size: 21px;
-    line-height: auto;
-    font-weight: bold;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-.find-btn:active,
-.social-btn:active{
- background-color:#5496bd;   
-}
-.find-btn:hover,
-.social-btn:hover{
-    background-color:#669ec0;
-}
 
 
 
@@ -794,8 +775,7 @@ h2 {
     margin: 0;
     padding: 0;
     width: 465px;
-    background-color: bisque;
-   margin: 0 51px;
+     margin: 0 51px;
 }
  .date-in,
 .date-out {
@@ -848,8 +828,6 @@ h2 {
     position: absolute;
   top: 8px;
   right: 11px;
-    width: 21px;
-    height: 22px;
   display: inline-block;
   border: 0;
   background-color: transparent;
@@ -874,11 +852,7 @@ h2 {
   margin-bottom: 51px;
 }
 
-.unit-container-adult{
-    margin: 0;
-    padding: 0;
-    
-}
+
 .form-line input {
   margin: 0;
   padding: 0;
@@ -953,6 +927,40 @@ h2 {
     padding-left: 49px;
     padding-bottom: 2px;
 }
+.form-line button{
+    margin:0;
+    padding:0;
+    height: 25
+}
+.unit-container-adult,
+.unit-container-kids{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.find-btn {
+    margin:0;
+    padding:0;
+     width: 458px;
+    height: 58px;
+    background-color: #81b3d2;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 21px;
+    line-height: auto;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.find-btn:active,
+.social-btn:active{
+ background-color:#5496bd;   
+}
+.find-btn:hover,
+.social-btn:hover{
+    background-color:#669ec0;
+}
+
 /*---------------------------------------------------------*/
 
 
