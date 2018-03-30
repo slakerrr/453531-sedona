@@ -1,4 +1,5 @@
 .main-body {
+    width: 100%;
     margin:0;
     padding:0;
     position: relative;
@@ -36,7 +37,7 @@
   margin: -1px;
   
 }
-a {
+.wrapper a {
     text-decoration: none;
 }
 
@@ -258,7 +259,9 @@ display: flex;
         align-items: center;
 }
 
-
+.wrapper a {
+    text-decoration: none;
+}
 .checkbox input + label::before {
  content: "";
   display: inline-block;
