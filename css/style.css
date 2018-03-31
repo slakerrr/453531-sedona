@@ -139,6 +139,9 @@
 }
 
 .search-btn {
+    margin: 0 auto;
+    padding-left: 130px;
+    padding-right: 130px;
 	width: 568px;
 	min-height: 86px;
 	font: inherit;
@@ -993,7 +996,6 @@ li.checkbox:nth-child(n+2) {
 }
 
 .field:focus {
-	border: 2px solid #e5e5e5;
 	background-color: #ffffff;
 }
 
