@@ -271,7 +271,7 @@ li.checkbox:nth-child(n+2) {
 }
 
 
-/* ------------------dibabled checkbox---------------*/
+/* ------------------disabled checkbox---------------*/
 
 .checkbox input[disabled]+label {
 	cursor: pointer;
@@ -1336,13 +1336,6 @@ li.checkbox:nth-child(n+2) {
 
 .filter-infrastructure li:nth-child(n+1) {
 	padding-bottom: 16px;
-}
-
-.pool {
-	display: block;
-	margin: 0;
-	padding: 0;
-	margin: 13px;
 }
 
 .filter-type ul {
