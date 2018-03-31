@@ -264,8 +264,10 @@ li.checkbox:nth-child(n+2) {
 	display: inline-block;
 	width: 26px;
 	height: 24px;
+    vertical-align: top;
 	background-image: url("../img/checkbox-off.svg");
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
+    vertical-align: top;
 }
 
 .checkbox input:checked+label::before {
@@ -285,7 +287,8 @@ li.checkbox:nth-child(n+2) {
 	width: 26px;
 	height: 24px;
 	background-image: url("../img/checkbox-off-blocked.svg");
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
+    vertical-align: top;
 }
 
 .checkbox input[disabled]:checked+label::before {
@@ -404,6 +407,7 @@ li.checkbox:nth-child(n+2) {
 	margin-left: 1px;
 	padding-top: 5px;
 	padding-bottom: 2px;
+    vertical-align: top;
 }
 
 .stars4 {
@@ -1001,6 +1005,7 @@ li.checkbox:nth-child(n+2) {
 	fill: #cacaca;
 	margin: 0;
 	padding: 0;
+    vertical-align: top;
 }
 
 .icon-calendar:hover {
@@ -1174,6 +1179,7 @@ li.checkbox:nth-child(n+2) {
 	display: inline-block;
 	padding-left: 132px;
 	padding-top: 40px;
+    vertical-align: top;
 }
 
 .footer-social {
@@ -1249,6 +1255,7 @@ li.checkbox:nth-child(n+2) {
 	line-height: 26px;
 	font-weight: normal;
 	padding-right: 8px;
+    vertical-align: top;
 }
 
 
@@ -1444,7 +1451,7 @@ li.checkbox:nth-child(n+2) {
 }
 
 .range-toggle:hover {
-	background: #1c4f80;
+	 border: 9px solid #ffffff;
 }
 
 .range-toggle-min {
