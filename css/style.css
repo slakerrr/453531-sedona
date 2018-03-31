@@ -336,6 +336,9 @@ display: flex;
 
 
 .details {
+     font-size: 14px;
+ line-height: 21px;
+ font-weight: bold;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -363,6 +366,9 @@ background-color: #81b3d2;
 
 
 .book {
+         font-size: 14px;
+ line-height: 21px;
+ font-weight: bold;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
