@@ -245,10 +245,13 @@ li.checkbox:nth-child(n+2) {
 	margin-right: 15px;
 }
 
-.checkbox input {
-	display: none;
+.checkbox input { 
+    position: absolute; 
+    left: -99999px; 
 }
-
+.checkbox input:focus + label{
+ outline: 2px solid #81b3d2;   
+}
 .checkbox input+label {
 	cursor: pointer;
 	display: -webkit-box;
