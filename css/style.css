@@ -188,14 +188,16 @@
 	margin-left: ;
 }
 
-.find-btn:active,
-.social-btn:active {
-	background-color: #5496bd;
-}
+
 
 .find-btn:hover,
 .social-btn:hover {
 	background-color: #669ec0;
+}
+.find-btn:active,
+.social-btn:active {
+	background-color: #5496bd;
+    color: #94b9d2;
 }
 
 .footer-copyright {
@@ -1003,11 +1005,11 @@ li.checkbox:nth-child(n+2) {
 
 .icon-calendar:hover {
 	fill: #000000;
-}
+  }
 
 .icon-calendar:active {
 	fill: #81b3d2;
-}
+   }
 
 .form-line {
 	display: -webkit-box;
@@ -1071,12 +1073,7 @@ li.checkbox:nth-child(n+2) {
 	position: relative;
 }
 
-.find-btn {
-	padding: 0;
-	margin: 0;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 .half-width {
 	font-weight: inherit;
@@ -1123,8 +1120,10 @@ li.checkbox:nth-child(n+2) {
 }
 
 .find-btn {
+    padding: 0;
 	margin: 0;
-	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
 	width: 458px;
 	height: 58px;
 	background-color: #81b3d2;
