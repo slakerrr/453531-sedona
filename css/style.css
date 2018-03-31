@@ -57,6 +57,8 @@ ul>li{
 .site-navigation a,
 .user-navigation a {
     color:black;
+    font-size: 14px;
+    line-height: 26px;
 }
 
 .site-navigation a:active,
