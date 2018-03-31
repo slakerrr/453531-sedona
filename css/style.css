@@ -590,7 +590,7 @@ li.checkbox:nth-child(n+2) {
 	flex-direction: row;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	width: 100%
+	width: 100%;
 }
 
 .true-city {
@@ -744,6 +744,8 @@ li.checkbox:nth-child(n+2) {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .estate,
