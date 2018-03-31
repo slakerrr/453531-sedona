@@ -751,26 +751,48 @@ body{
             align-items: center;
     margin: 0;
     padding: 0;
+    
 }
-.souvenirs p,
-.food p,
-.estate p{
- margin-top: 25px;
-padding: 0 45px;    
- }
+.estate::before,
+.food::before,
+.souvenirs::before {
+    list-style: none;
+    margin-top: 59px;
+    margin-left: auto;
+    margin-right: auto;
+    content: "";
+    display: table; 
+}
+.estate::before {
+    width: 75px;
+    height: 72px;
+    background-image: url("../img/icon-1.svg"); }
+  .food::before {
+    width: 74px;
+    height: 70px;
+    background-image: url("../img/icon-3.svg"); 
+}
+  .souvenirs::before {
+    width: 64px;
+    height: 75px;
+    background-image: url("../img/icon-2.svg"); 
+}
+
 .souvenirs h1,
 .food h1,
 .estate h1{
-   margin-top: 25px;
-    }
-.souvenirs img,
-.food img,
-.estate img
-{
- margin-top: 57px; 
+   margin-top: 30px;
+  }
+
+.souvenirs p,
+.food p,
+.estate p{
+ margin-top: 23px;
+padding: 0 45px;    
+ }
+.food p{
+ margin-top: 26px;   
 }
-
-
 
 .bridge {
    display: -webkit-box;
