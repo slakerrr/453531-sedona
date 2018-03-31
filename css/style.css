@@ -1555,24 +1555,24 @@ li.checkbox:nth-child(n+2) {
 	color: black;
 }
 
-a.sort-type,
-a.sort-rait {
+.sort-type,
+.sort-rait {
 	opacity: 0.3;
 	border-bottom: 1px dashed #81b3d2;
 }
 
-a.sort-price:hover,
-a.sort-type:hover,
-a.sort-rait:hover {
+.sort-price:hover,
+.sort-type:hover,
+.sort-rait:hover {
 	opacity: inherit;
 	color: #81b3d2;
 	text-decoration: none;
 	border-bottom: 1px dashed #81b3d2;
 }
 
-a.sort-price:active,
-a.sort-type:active,
-a.sort-rait:active {
+.sort-price:active,
+.sort-type:active,
+.sort-rait:active {
 	opacity: inherit;
 	color: black;
 	text-decoration: none;
