@@ -562,6 +562,9 @@ body{
     padding:0;
     margin:0;
     margin-bottom:26px;
+    width:450px;
+    margin-right: auto;
+    margin-left: auto;
     }
 .main-head h2{
     padding:0;
@@ -760,9 +763,9 @@ padding: 0 45px;
 .estate h1{
    margin-top: 25px;
     }
-.souvenirs div,
-.food div,
-.estate div
+.souvenirs img,
+.food img,
+.estate img
 {
  margin-top: 57px; 
 }
