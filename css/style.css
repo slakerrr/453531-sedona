@@ -579,7 +579,8 @@ li.checkbox:nth-child(n+2) {
 .best-5things {
 	margin: 0;
 	padding: 0;
-	list-style: none;
+    background-color: #eeeeee;
+    list-style: none;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
