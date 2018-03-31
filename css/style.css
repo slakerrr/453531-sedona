@@ -1,5 +1,5 @@
 .main-body {
-	width: 100%;
+	width: 100%; 
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -11,8 +11,10 @@
 	text-transform: uppercase;
 	background-color: white;
 	background-image: url(../img/background.jpg);
-	background-position: center top;
-	background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size:auto;
+    background-repeat: no-repeat;
+	
 	width: 100%;
 }
 
@@ -48,8 +50,7 @@
 .best-5things,
 .estate,
 .food,
-.souvenirs,
-ul>li {
+.souvenirs{
 	list-style: none;
 }
 
@@ -81,7 +82,7 @@ ul>li {
 	line-height: 26px;
 }
 
-h1~h2 {
+.main-head h2 {
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: normal;
@@ -111,10 +112,15 @@ h1~h2 {
 	text-align: center;
 }
 
-h2~p {
+.container p {
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: normal;
+}
+.container h2 {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: bold;
 }
 
 .container .interested-head {
@@ -137,6 +143,7 @@ h2~p {
 	line-height: 26px;
 	font-weight: bold;
 	color: #ffffff;
+    border: none;
 }
 
 .search-btn:hover {
@@ -226,7 +233,7 @@ li.checkbox:nth-child(n+2) {
 	padding: 0;
 }
 
-label::before {
+.checkbox label::before {
 	margin-right: 15px;
 }
 
@@ -242,10 +249,6 @@ label::before {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-}
-
-.wrapper a {
-	text-decoration: none;
 }
 
 .checkbox input+label::before {
@@ -430,11 +433,10 @@ label::before {
 	margin: 0 auto;
 	-webkit-box-shadow: 0 -5px 19px 13px #dbdbdb;
 	box-shadow: 0 -5px 19px 13px #dbdbdb;
-}
-
-body {
-	margin-right: 40px;
-	margin-left: 40px;
+    background-image: url(../img/background.jpg);
+    background-position: 50% 0%;
+    background-size:auto;
+    background-repeat: no-repeat;
 }
 
 .main-header {
@@ -851,12 +853,6 @@ body {
 	margin-top: 20px;
 }
 
-h2 {
-	text-decoration: none;
-	font-size: 30px;
-	font-weight: bold;
-	line-height: 36px;
-}
 
 .interested {
 	position: relative;
