@@ -1424,6 +1424,8 @@ li.checkbox:nth-child(n+2) {
 .price-controls .max-price {
 	width: 90px;
 	padding-left: 61px;
+    line-height: 100%;
+    padding-top: 8px;
 }
 
 .price-controls input {
@@ -1433,6 +1435,7 @@ li.checkbox:nth-child(n+2) {
 	font: inherit;
 	background: none;
 	border: none;
+    
 }
 
 .range-controls {
